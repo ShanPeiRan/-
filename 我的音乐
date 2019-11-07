@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/2.css" type="text/css"/>
+</head>
+<body>
+<header>
+    <div class="h_topder">
+        <div class="h_top">
+            <div class="h_logo">
+                <div class="loader">
+                    <div class="face">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="face">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <span class="logo_m">
+                    网易云音乐
+                </span>
+            </div>
+            <div class="h_toprig">
+                <div class="h_form">
+                    <form action="" class="form_m">
+                        <input type="search" class="sousuo" placeholder="歌手/歌曲"/>
+                    </form>
+                </div>
+                <div class="container">
+                    <ul class="menu">
+                        <li><a href="#"><img src="images/spr.jpg" alt="" width="30" height="30"/></a>
+                            <ul class="submenu">
+                                <li><a href="#">我的主页</a></li>
+                                <li><a href="#">我的消息</a></li>
+                                <li><a href="#">个人设置</a></li>
+                                <li><a href="#">退出</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class='ribbon'>
+                <a href='主页.html'><span class="ribbon_1">推荐</span></a>
+                <a href='我的音乐.html'><span>我的音乐</span></a>
+                <a href='#'><span>排行榜</span></a>
+                <a href='下载页面.html'><span>下载客户端</span></a>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="sec_div">
+        <div class="sec_le">
+            <div class="le_top">
+                <p class="top_1">
+                    创建的歌单（1）
+                </p>
+                <div class="top_2">
+                    <a href="">新建歌单</a>
+                </div>
+            </div>
+            <ul class="le_gd">
+                <li class="le_like">
+                    <p class="like_wz"><span class="wz_1"><a href="">我喜欢的音乐</a></span><span class="wz_2">11首</span></p>
+
+                </li>
+            </ul>
+        </div>
+        <div class="sec_ri">
+            <div class="right_top">
+                <div class="top_le"></div>
+                <div class="top_ri">
+                    <div class="ri_top">
+                        <p class="ritop_1">歌单</p>
+                        <p class="ritop_2">我喜欢的音乐</p>
+                    </div>
+                    <div class="ri_cen">
+                        <span class="ricen_1"><a href="">单子鹓</a></span>
+                        <span class="ricen_2">2016年5月11创建</span>
+                    </div>
+                    <div class="ri_bot">
+                        <p class="bot_1" id="bot_1"><a href="">播放</a></p>
+                        <ul class="bot_2">
+                            <li><a href="">收藏</a></li>
+                            <li><a href="">分享</a></li>
+                            <li><a href="">下载</a></li>
+                            <li><a href="">评论</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="right_cen">
+                <div class="gqlb_top">
+                    <p class="gqlbtop_1">歌曲列表</p>
+                    <p class="gqlbtop_2">11首歌</p>
+                    <p class="gqlbtop_3">播放：205次</p>
+                </div>
+                <div class="gqlb_cen">
+                    <ul class="gqlbcen_2">
+                        <li class="kb"></li>
+                        <li class="gqname">歌曲标题</li>
+                        <li class="gqtime">时长</li>
+                        <li class="gs">歌手</li>
+                        <li class="zj">专辑</li>
+                    </ul>
+                </div>
+                <div class="gqlb_nr">
+                    <ul class="gqlbnr_1">
+                        <li class="nr1_1">1</li>
+                        <li class="nr1_2"><a href="">叹云兮</a></li>
+                        <li class="nr1_3"><a href="">04：43</a></li>
+                        <li class="nr1_4"><a href="">鞠婧祎</a></li>
+                        <li class="nr1_5"><a href="">叹云兮</a></li>
+                    </ul>
+                    <ul class="gqlbnr_2">
+                        <li class="nr1_1">2</li>
+                        <li class="nr1_2"><a href="">红尘客栈</a></li>
+                        <li class="nr1_3"><a href="">03：58</a></li>
+                        <li class="nr1_4"><a href="">安悦溪</a></li>
+                        <li class="nr1_5"><a href="">2017跨界歌王第九期</a></li>
+                    </ul>
+                    <ul class="gqlbnr_3">
+                        <li class="nr1_1">3</li>
+                        <li class="nr1_2"><a href="">逆浪千秋</a></a></li>
+                        <li class="nr1_3"><a href="">04：03</li>
+                        <li class="nr1_4"><a href="">祖娅纳xi惜</a></a></li>
+                        <li class="nr1_5"><a href="">逆浪千秋</a></a></li>
+                    </ul>
+                    <ul class="gqlbnr_4">
+                        <li class="nr1_1">4</li>
+                        <li class="nr1_2"><a href="">权御天下</a></a></li>
+                        <li class="nr1_3"><a href="">04：10</a></a></li>
+                        <li class="nr1_4"><a href="">易世樊花</a></a></li>
+                        <li class="nr1_5"><a href="">易世樊花2016翻唱合集</a></a></li>
+                    </ul>
+                    <ul class="gqlbnr_5">
+                        <li class="nr1_1">4</li>
+                        <li class="nr1_2"><a href="">盗将行</a></li>
+                        <li class="nr1_3"><a href="">03：18</a></li>
+                        <li class="nr1_4"><a href="">花粥/马雨阳</a></li>
+                        <li class="nr1_5"><a href="">粥请客(二)</a></li>
+                    </ul>
+                    <ul class="gqlbnr_6">
+                        <li class="nr1_1">5</li>
+                        <li class="nr1_2"><a href="">风筝误</a></li>
+                        <li class="nr1_3"><a href="">03：57</a></li>
+                        <li class="nr1_4"><a href="">刘珂矣</a></li>
+                        <li class="nr1_5"><a href="">半壶纱</a></li>
+                    </ul>
+                    <ul class="gqlbnr_7">
+                        <li class="nr1_1">6</li>
+                        <li class="nr1_2"><a href="">山外小楼夜听雨</a></li>
+                        <li class="nr1_3"><a href="">04：09</a></li>
+                        <li class="nr1_4"><a href="">任然</a></li>
+                        <li class="nr1_5"><a href="">从小到大</a></li>
+                    </ul>
+                    <ul class="gqlbnr_8">
+                        <li class="nr1_1">7</li>
+                        <li class="nr1_2"><a href="">世末歌者</a></li>
+                        <li class="nr1_3"><a href="">05：26</a></li>
+                        <li class="nr1_4"><a href="">双笙/囧菌</a></li>
+                        <li class="nr1_5"><a href="">世末歌者(翻唱)</a></li>
+                    </ul>
+                    <ul class="gqlbnr_9">
+                        <li class="nr1_1">8</li>
+                        <li class="nr1_2"><a href="">九九八十一</a></li>
+                        <li class="nr1_3"><a href="">04：46</a></li>
+                        <li class="nr1_4"><a href="">乐正绫</a></li>
+                        <li class="nr1_5"><a href="">九九八十一</a></li>
+                    </ul>
+                    <ul class="gqlbnr_10">
+                        <li class="nr1_1">10</li>
+                        <li class="nr1_2"><a href="">马步谣</a></li>
+                        <li class="nr1_3"><a href="">04：31</a></li>
+                        <li class="nr1_4"><a href="">双笙</a></li>
+                        <li class="nr1_5"><a href="">马步谣</a></li>
+                    </ul>
+                    <ul class="gqlbnr_11">
+                        <li class="nr1_1">11</li>
+                        <li class="nr1_2"><a href="">霜雪千年</a></li>
+                        <li class="nr1_3"><a href="">04：00</a></li>
+                        <li class="nr1_4"><a href="">洛天依/乐正绫</a></li>
+                        <li class="nr1_5"><a href="">洛天依作品集</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right_bottom">
+                <div class="pl_top">
+                    <p class="pl_1">评论</p>
+                    <p class="pl_2">共1条评论</p>
+                </div>
+                <div class="pl_cen">
+                    <form action="">
+                        <input class="pl" type="text" placeholder="评论">
+                    </form>
+                    <p class="pl_bu">评论</p>
+                </div>
+                <div class="pl_jc">
+                    <p class="jc_zx">最新评论(1)</p>
+                    <div class="jc_tx"></div>
+                    <p class="jc_pl">广袖流苏：歌曲都不错，挺好听的</p>
+                    <p class="jc_sj">5小时前</p>
+                    <p class="jc_bu">(1)|回复</p>
+                </div>
+                <div class="pl_sy">
+                    <p class="jc_zx">所有评论(1)</p>
+                    <div class="jc_tx"></div>
+                    <p class="jc_pl">广袖流苏：歌曲都不错，挺好听的</p>
+                    <p class="jc_sj">5小时前</p>
+                    <p class="jc_bu">(1)|回复</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
